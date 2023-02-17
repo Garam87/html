@@ -1,0 +1,62 @@
+
+
+.header {
+    height: 10vh;
+}
+
+.nav {
+    height: 5vh;
+    border: ;
+}
+
+.main {
+    border: 1px solid red;
+    display: flex;
+    padding: 20px;
+}
+
+.main div {
+    border: 1px solid blue;
+    height: 20vh;
+    width: 50%;
+}
+
+.footer {
+    height: 10vh;
+}
+
+section {
+    display: flex;
+}
+
+.section {
+    
+    padding: 10px;
+    border: 1px solid hotpink;
+    width: 50%;
+}
+.section div{
+
+    height: 10vh;
+    border: 1px solid hotpink;
+}
+
+.aside {
+    width: 50%;
+}
+
+.figure {
+    height: 20vh;
+}
+
+.img {
+    height: 10vh;
+    border: 1px solid hotpink;
+}
+
+.figcaption {
+    height: 10vh;
+    border: 1px solid hotpink;
+}
+
+

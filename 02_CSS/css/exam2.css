@@ -1,0 +1,48 @@
+body {
+   
+    text-align: center;
+    
+    
+}
+
+.header {
+
+    background-color: antiquewhite;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.nav {
+    background-color: aqua;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+}
+
+.content-1 {
+    background-color: rebeccapurple;
+    width: 30%;
+    height: 300px;
+    margin-right: 10px;
+
+}
+
+.content-2 {
+    background-color: chartreuse;
+    width: 100%
+}
+
+.content-3 {
+    background-color: tomato;
+    width: 30%;
+    margin-left: 10px;
+}
+
+.footer {
+    background-color: violet;
+    height: 100px;
+    margin-top: 20px;
+}

@@ -1,0 +1,87 @@
+.header {
+    background-color: red;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.nav {
+    background-color: orange;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.main {
+    border: 1px solid black;
+    
+    height: 700px;
+}
+
+.main-1 {
+    display: flex;
+    border: 1px solid black;
+    
+    height: 100px;
+    margin: 10px;
+    
+}
+
+.article-1 {
+    border: 1px solid black;
+    
+    width: 50%;
+    margin: 10px;
+}
+
+.article-2 {
+    border: 1px solid black;
+    width: 50%;
+    margin: 10px;
+}
+
+.main-2 {
+    display: flex;
+    border: 1px solid black;
+    height: 300px;
+}
+
+.section {
+    border: 1px solid black;
+    width: 50%;
+    margin: 10px;
+}
+
+.article-3 {
+    border: 1px solid black;
+    height: 200px;
+}
+
+.aside {
+    width: 50%;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.fiqure {
+    border: 1px solid black;
+    height: 200px;
+    padding: 10px;
+}
+
+.img {
+    border: 1px solid black;
+    height: 70px;
+    padding: 10px;
+}
+
+.figcaption {
+    height: 70px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.footer {
+    margin-top: 10px;
+    height: 50px;
+    border: 1px solid black;
+   
+}
