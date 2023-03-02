@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입 양식</title>
+</head>
+<body>
+
+    <h1>네이놈</h1>
+    <!-- 1. 아이디(영문 소문자 + 숫자 / 5글자 이상)
+        - 아이디 사용 가능 / 불가능
+        2. 비밀번호(영문대문자/소문자 + 특수문자 + 숫자 / 8글자 이상)
+        - 비밀번호 사용 가능/ 불가능
+        3. 이름(한글 2글자 이상)
+        4. 휴대폰번호 (숫자만 단, 010으로 시작)
+        5. 주민번호 (단, 7번째 숫자는 1,2,3,4, 만 가능)
+        [6글자] - [ ]
+        6. 이메일(@무조건 포함, 맨뒤는 .com 으로 끝날 것)
+
+        -submit 버튼
+
+        둘다 가능일때
+
+        alret 창 ("사용 가능한 계정입니다!") / (" 유효성 검사가 완료되지 않았습니다.")
+    -->
+
+
+    <form action="" method="post">
+        <div>
+            아이디 :
+            <input type="text" name="userId" id="userId" autocomplete="off" required/>
+            <span id="id"></span>
+        </div>
+        <div>
+            비밀번호 :
+            <input type="password" name="userPw" id="userPw" required/>
+            <span id="pw"></span>
+        </div>
+        <div>
+            비밀번호 확인 :
+            <input type="password" name="userPw2" id="userPw2" required/>
+            <span id="pw2"></span>
+        </div>
+        <div>
+            이름 :
+            <input type="text" id="userName" autocomplete="off" required/>
+            <span id="name"></span>
+        </div>
+        <div>
+            휴대폰번호 :
+            <input type="tel" id="userPhone" autocomplete="off" required/>
+            <span id="phone"></span>
+        </div>
+        <div>
+            주민등록번호 :
+            <input type="text" maxlength="6" autocomplete="off" required/> -
+            <input type="password" id="userJumin" maxlength="7" required>
+            <span id="ssn"></span>
+        </div>
+        <div>
+            이메일 :
+            <input type="email" id="userEmail" autocomplete="off" required/>
+            <span id="email"></span>
+        </div>
+        <button type="button" id="join">가입하기</button>
+    </form>
+    
+
+
+    <script src="main.js"></script>
+</body>
+</html>
