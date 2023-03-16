@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" 
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" 
+    crossorigin="anonymous"></script>
+</head>
+
+<style>
+    .divs {
+        display: flex;
+    }
+
+    .divs > div {
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+    }
+
+    .inputs {
+        display: flex;
+    }
+
+    .inputs > input {
+        width: 96px;
+    }
+</style>
+<body>
+    
+    <div class="divs">
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div3"></div>
+        <div class="div4"></div>
+        <div class="div5"></div>
+        <div class="div6"></div>
+    </div>
+    <div class="inputs">
+        <input type="text" id="input1">
+        <input type="text" id="input2">
+        <input type="text" id="input3">
+        <input type="text" id="input4">
+        <input type="text" id="input5">
+        <input type="text" id="input6">
+    </div>
+    <button>리셋</button>
+
+
+    <script>
+        $("#input1").on("input", function() {
+            $(".div1").css("backgroundColor" , $(this).val());
+            $(this).css("borderColor" , $(this).val());
+            $(this).css("color" , $(this).val());
+        })
+        $("#input2").on("input", function() {
+            $(".div2").css("backgroundColor" , $(this).val());
+            $(this).css("borderColor" , $(this).val());
+            $(this).css("color" , $(this).val());
+        })
+        $("#input3").on("input", function() {
+            $(".div3").css("backgroundColor" , $(this).val());
+            $(this).css("borderColor" , $(this).val());
+            $(this).css("color" , $(this).val());
+        })
+        $("#input4").on("input", function() {
+            $(".div4").css("backgroundColor" , $(this).val());
+            $(this).css("borderColor" , $(this).val());
+            $(this).css("color" , $(this).val());
+        })
+        $("#input5").on("input", function() {
+            $(".div5").css("backgroundColor" , $(this).val());
+            $(this).css("borderColor" , $(this).val());
+            $(this).css("color" , $(this).val());
+        })
+        $("#input6").on("input", function() {
+            $(".div6").css("backgroundColor" , $(this).val());
+            $(this).css("borderColor" , $(this).val());
+            $(this).css("color" , $(this).val());
+        })
+
+        $("button").on("click", function() {
+            
+            $(".div1").css("backgroundColor" , "");
+            $("#input1").css("borderColor" , "");
+            $("#input1").css("color" , "");
+            $("#input1").val("");
+       
+            $(".div2").css("backgroundColor" , "");
+            $("#input2").css("borderColor" , "");
+            $("#input2").css("color" , "");
+            $("#input2").val("");
+       
+            $(".div3").css("backgroundColor" , "");
+            $("#input3").css("borderColor" , "");
+            $("#input3").css("color" , "");
+            $("#input3").val("");
+       
+            $(".div4").css("backgroundColor" , "");
+            $("#input4").css("borderColor" , "");
+            $("#input4").css("color" , "");
+            $("#input4").val("");
+            
+            $(".div5").css("backgroundColor" , "");
+            $("#input5").css("borderColor" , "");
+            $("#input5").css("color" , "");
+            $("#input5").val("");
+
+            $(".div6").css("backgroundColor" , "");
+            $("#input6").css("borderColor" , "");
+            $("#input6").css("color" , "");
+            $("#input6").val("");
+        })
+    </script>
+</body>
+</html>
